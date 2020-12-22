@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Word Game</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+</head>
+<body class="bg-dark">
+  <header class="bg-info P-3  mb-5 text-center text-white">
+      <h1>WORD BEATER</h1>
+  </header>
+  <section class="p-2 text-center col-12">
+  <H1>  START</H1>
+    <div class="container-fluid">
+    
+        <div class="row align-items-center">
+            
+            <div class="col-3 mx-auto mr-3 text-white">
+                <H1>SCORE:
+                <span id="score">0</span>
+            </H1>
+           
+            </div>
+            <div class="col-6  mx-auto text-center bg-info pb-3 rounded">
+               
+                    <p class="lead">Type The Given Word Within
+                        <span class="text-success" id="seconds">5</span> Seconds:</p>
+                      <h2 class="display-2" id="current-word"></h2>
+                      <input type="text" class="form-control form-control-lg" placeholder="Start typing..." id="word-input" autofocus>
+                      <h4 class="" id="message"></h4>
+            </div>
+            <div class="col-3 mx-auto text-white">
+                <H1>  TIME: 
+                <span id="time">0</span>
+            </H1>
+           
+                
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="p-4 bg-gradient-light  text-center">
+    <h1>instructions</h1> 
+            <div class="col-12 align-items-center text-white">
+               *You have to type the word in given time
+               <br>*Capital letters are valid in some words</br>
+            </div>
+        </div>
+
+
+
+
+
+
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
